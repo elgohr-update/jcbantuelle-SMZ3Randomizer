@@ -14,7 +14,7 @@ jobs:
       with:
         submodules: true   
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: tewtal/webrandomizer-mw-beta
         username: ${{ secrets.DOCKER_USERNAME }}
